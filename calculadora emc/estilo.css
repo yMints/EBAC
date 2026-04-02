@@ -1,0 +1,70 @@
+body {
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+/* Caixa */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Botão */
+button {
+    padding: 12px;
+    background: #4CAF50;
+    color: white;
+
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+/* Resultado */
+#resultadoIMC {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Classificação */
+#classificacaoIMC {
+    font-size: 16px;
+    text-align: center;
+}
